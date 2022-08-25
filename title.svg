@@ -1,0 +1,47 @@
+<svg fill="none" viewBox="0 0 400 200" width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes rotate {
+					0% {
+						transform: rotate(3deg);
+					}
+					100% {
+						transform: rotate(-3deg);
+					}
+				}
+
+				@keyframes gradientBackground {
+					0% {
+						background-position: 0% 50%;
+					}
+					50% {
+						background-position: 100% 50%;
+					}
+					100% {
+						background-position: 0% 50%;
+					}
+				}
+        
+        .container {
+          animation: rotate ease-in-out 1s infinite alternate;
+        }
+				h1 {
+          background: linear-gradient(
+            to right,
+            rgb(122, 8, 236),
+            rgb(226, 185, 4),
+            rgb(201, 16, 16)
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: black;
+					animation: gradientBackground linear 1s infinite;
+				}
+			</style>
+			<div class="container">
+				<h1>Hi. I'm Samuel. A developer trying to be generalist.</h1>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
