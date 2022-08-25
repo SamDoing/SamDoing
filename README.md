@@ -1,4 +1,5 @@
-# Hi. I'm Samuel. A developer trying to be generalist.
+<img src="title.svg" width="400" height="200" alt="tile">
+
 <div align="center">
   <div> 
     <a href="https://www.linkedin.com/in/samuel-patrac%C3%A3o-50a74123b" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
