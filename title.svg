@@ -35,7 +35,8 @@
           animation-delay: 0s,2s;
         }
         h1 {
-          font-size: 32px;
+          white-space: nowrap;
+          font-size: 26px;
           background: linear-gradient(
             to right,
             rgb(122, 8, 236),
