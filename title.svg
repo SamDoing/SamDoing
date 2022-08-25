@@ -27,7 +27,6 @@
           animation: rotate ease-in-out 1s infinite alternate;
         }
         h1 {
-          text-align: center;
           background: linear-gradient(
             to right,
             rgb(122, 8, 236),
