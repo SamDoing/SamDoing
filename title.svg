@@ -2,29 +2,35 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        @keyframes rotate {
-          0% {
-            transform: rotate(1deg);
-          }
-          100% {
-            transform: rotate(-1deg);
-          }
+        @keyframes gelatine {
+          from, to { transform: scale(1, 1); }
+          25% { transform: scale(0.95, 1.05); }
+          50% { transform: scale(1.05, 0.95); }
+          75% { transform: scale(0.97, 1.02); }
+        }
+        
+        @keyframes bounce {
+          0% {transform: translateY(-100px);}
+          20%, 50%, 80%, 100% {transform: translateY(0);}
+          40% {transform: translateY(-20px);}
+          60% {transform: translateY(-10px);}
         }
 
         @keyframes gradientBackground {
           0% {
-            background-position: 0% 50%;
+            background-position: 0px;
           }
           50% {
-            background-position: 100% 50%;
+            background-position: 1000px;
           }
           100% {
-            background-position: 0% 50%;
+            background-position: 2000px;
           }
         }
 
         .container {
-          animation: rotate ease-in-out 1s infinite alternate;
+          animation: bounce 1s, gelatine 2s infinite;
+          animation-delay: 0s,2s;
         }
         h1 {
           background: linear-gradient(
@@ -36,7 +42,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           color: black;
-          animation: gradientBackground linear 1s infinite;
+          animation: gradientBackground linear 10s infinite;
         }
       </style>
       <div class="container">
