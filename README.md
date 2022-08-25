@@ -1,4 +1,4 @@
-# <img src="title.svg" width="100%" alt="title">
+# <img src="title.svg" width="100%" alt="Title">
 
 <div align="center">
   <div> 
