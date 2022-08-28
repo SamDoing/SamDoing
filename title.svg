@@ -31,7 +31,7 @@
         }
 
         .container {
-          animation: bounce 2s, gelatine 2s infinite;
+          animation: bounce 2s ease-in, gelatine 2s infinite;
           animation-delay: 0s,2s;
         }
         h1 {
